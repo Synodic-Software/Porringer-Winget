@@ -44,6 +44,10 @@ test = [
   "pytest-mock>=3.11.1",
 ]
 
+# Plugin registration
+[project.entry-points."porringer.environment"]
+mock = "porringer_winget.plugin:WingetEnvironment"
+
 [tool.pdm.scripts]
 analyze = {shell = "pylint --verbose porringer_winget tests"}
 format = {shell = "black --check --verbose ."}
