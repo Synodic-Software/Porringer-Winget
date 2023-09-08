@@ -6,7 +6,7 @@ groups = ["default", "lint", "test"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:4cdbb1cd39750f01fd331a242183641f973bbc256bfdc4cd479046d5b09ddd96"
+content_hash = "sha256:a6bbdcc75cf700893a75809ab5ac5511852eecf89d5ba2f6e8918ce945ccc94e"
 
 [[package]]
 name = "annotated-types"
@@ -432,13 +432,29 @@ files = [
 ]
 
 [[package]]
-name = "synodic-utilities"
+name = "pytest-porringer"
 version = "0.1.1.dev5"
+requires_python = ">=3.11"
+summary = ""
+dependencies = [
+    "porringer-core>=0.0.0",
+    "pydantic>=2.2.1",
+    "pytest-mock>=3.11.1",
+    "pytest>=7.4.0",
+]
+files = [
+    {file = "pytest_porringer-0.1.1.dev5-py3-none-any.whl", hash = "sha256:363ad9d205ba9bcc7fa1fb298a9a9b1e27ed4b5e75ef8d3aebdf02124966cfb5"},
+    {file = "pytest_porringer-0.1.1.dev5.tar.gz", hash = "sha256:4a8e877e648dbad3099741900d68983cd842306723d5d6a6e3de123e0cd63f08"},
+]
+
+[[package]]
+name = "synodic-utilities"
+version = "0.1.1.dev6"
 requires_python = ">=3.11"
 summary = "Synodic python utility library"
 files = [
-    {file = "synodic_utilities-0.1.1.dev5-py3-none-any.whl", hash = "sha256:a2980005c8d7686d5a443a1efdfa6015eabbd502604872b59ce5580f212e51ec"},
-    {file = "synodic_utilities-0.1.1.dev5.tar.gz", hash = "sha256:03237654687b6e5ce21a82c52a424a68ba9e3c04ba8337a7ee0aa0ac51111637"},
+    {file = "synodic_utilities-0.1.1.dev6-py3-none-any.whl", hash = "sha256:3811c1b808bb6c9953f15b62f171fcc8d62fe4eba91a09718cfd4c081f9033f2"},
+    {file = "synodic_utilities-0.1.1.dev6.tar.gz", hash = "sha256:d5f246c1a064054a2de05a427cc1ba935ff56134aac6c7d3f7d947eb2ed21f5e"},
 ]
 
 [[package]]
