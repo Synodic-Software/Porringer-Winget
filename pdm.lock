@@ -6,7 +6,7 @@ groups = ["default", "lint", "test"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:4cdbb1cd39750f01fd331a242183641f973bbc256bfdc4cd479046d5b09ddd96"
+content_hash = "sha256:a6bbdcc75cf700893a75809ab5ac5511852eecf89d5ba2f6e8918ce945ccc94e"
 
 [[package]]
 name = "annotated-types"
@@ -429,6 +429,22 @@ dependencies = [
 files = [
     {file = "pytest-mock-3.11.1.tar.gz", hash = "sha256:7f6b125602ac6d743e523ae0bfa71e1a697a2f5534064528c6ff84c2f7c2fc7f"},
     {file = "pytest_mock-3.11.1-py3-none-any.whl", hash = "sha256:21c279fff83d70763b05f8874cc9cfb3fcacd6d354247a976f9529d19f9acf39"},
+]
+
+[[package]]
+name = "pytest-porringer"
+version = "0.1.1.dev5"
+requires_python = ">=3.11"
+summary = ""
+dependencies = [
+    "porringer-core>=0.0.0",
+    "pydantic>=2.2.1",
+    "pytest-mock>=3.11.1",
+    "pytest>=7.4.0",
+]
+files = [
+    {file = "pytest_porringer-0.1.1.dev5-py3-none-any.whl", hash = "sha256:363ad9d205ba9bcc7fa1fb298a9a9b1e27ed4b5e75ef8d3aebdf02124966cfb5"},
+    {file = "pytest_porringer-0.1.1.dev5.tar.gz", hash = "sha256:4a8e877e648dbad3099741900d68983cd842306723d5d6a6e3de123e0cd63f08"},
 ]
 
 [[package]]
